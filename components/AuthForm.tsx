@@ -57,7 +57,7 @@ const AuthForm = ({ type }: { type: string }) => {
             state: data.state!,
             postalCode: data.postalCode!,
             dateOfBirth: data.dateOfBirth!,
-            Adhaar: data.Adhaar!,
+            ssn: data.ssn!,
             email: data.email,
             password: data.password
           }
@@ -129,12 +129,12 @@ const AuthForm = ({ type }: { type: string }) => {
                   <CustomInput control={form.control} name='address1' label="Address" placeholder='Enter your specific address' />
                   <CustomInput control={form.control} name='city' label="City" placeholder='Enter your city' />
                   <div className="flex gap-4">
-                    <CustomInput control={form.control} name='state' label="State" placeholder='Example: MH(2 chars)' />
+                    <CustomInput control={form.control} name='state' label="State" placeholder='Example: NY' />
                     <CustomInput control={form.control} name='postalCode' label="Postal Code" placeholder='Example: 11101' />
                   </div>
                   <div className="flex gap-4">
                     <CustomInput control={form.control} name='dateOfBirth' label="Date of Birth" placeholder='YYYY-MM-DD' />
-                    <CustomInput control={form.control} name='Adhaar' label="Adhaar Number" placeholder='Example: 1234 5678 9123' />
+                    <CustomInput control={form.control} name='ssn' label="SSN" placeholder='Example: 1234' />
                   </div>
                 </>
               )}
@@ -160,8 +160,8 @@ const AuthForm = ({ type }: { type: string }) => {
           <footer className="flex justify-center gap-1">
             <p className="text-14 font-normal text-gray-600">
               {type === 'sign-in'
-              ? "First Time User?"
-              : "Already a trusted customer?"}
+              ? "Don't have an account?"
+              : "Already have an account?"}
             </p>
             <Link href={type === 'sign-in' ? '/sign-up' : '/sign-in'} className="form-link">
               {type === 'sign-in' ? 'Sign up' : 'Sign in'}
