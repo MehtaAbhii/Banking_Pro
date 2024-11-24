@@ -134,7 +134,7 @@ declare type NewDwollaCustomerParams = {
   state: string;
   postalCode: string;
   dateOfBirth: string;
-  ssn: string;
+  Adhaar: string;
 };
 
 declare interface CreditCardProps {
