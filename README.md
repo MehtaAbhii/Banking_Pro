@@ -21,7 +21,7 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
-5. 🚀 [Deployment](#-deployment)
+5. 🚀 [Deployment](#️-deployment)
 
 
 
@@ -131,5 +131,5 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-## <a name="deplyment">🚀 Deployment</a>
+## <a name="deployment"> Deployment</a>
 ## Work in Progress
