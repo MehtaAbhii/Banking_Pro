@@ -21,9 +21,8 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Code Snippets to Copy](#snippets)
-6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
+5. 🚀 [Deployment](#️-deployment)
+
 
 
 ## <a name="introduction">🤖 Introduction</a>
@@ -132,5 +131,5 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-## <a name="snippets">🕸️ Deployment</a>
+## <a name="deplyment">🚀 Deployment</a>
 ## Work in Progress
