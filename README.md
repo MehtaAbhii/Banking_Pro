@@ -58,9 +58,9 @@ Built with Next.js, UniFin is a financial SaaS platform that connects to multipl
 
 👉 **Funds Transfer**: Allows users to transfer funds using Dwolla to other accounts with required fields and recipient bank ID.
 
-👉 **Responsiveness**: Ensures the application adapts seamlessly to various screen sizes and devices, providing a consistent user experience across desktop, tablet, and mobile platforms.
+👉 **Responsiveness**: Ensures the application adapts seamlessly to various screen sizes and devices, providing a consistent user experience across desktop, tablet, and mobile platforms and many more, including code architecture and reusability. 
 
-and many more, including code architecture and reusability. 
+👉 **PDF Functionality**: Allows the user to download all the transactions on a particular page in Pdf format.
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
