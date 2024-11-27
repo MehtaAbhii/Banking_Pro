@@ -65,6 +65,8 @@ const AuthForm = ({ type }: { type: string }) => {
           const newUser = await signUp(userData);
 
           setUser(newUser);
+
+          // router.push('/sign-in');
         }
 
         if(type === 'sign-in') {
@@ -172,5 +174,7 @@ const AuthForm = ({ type }: { type: string }) => {
     </section>
   )
 }
+
+
 
 export default AuthForm
