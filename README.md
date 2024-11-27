@@ -132,4 +132,7 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
 ## <a name="deployment"> Deployment</a>
-## Work in Progress
+The application has been successfully deployed on Vercel, ensuring seamless performance and scalability. You can access the live deployment through the following links:
+
+Production Deployment Link:
+https://unifin-ashy.vercel.app/
