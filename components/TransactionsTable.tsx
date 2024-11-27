@@ -168,7 +168,7 @@ const TransactionsTable = ({ transactions }: TransactionTableProps) => {
     <div className="relative">
       <div 
         onClick={generatePDF} 
-        className="absolute -top-10 right-0 left-2 bg-red-100 hover:bg-red-200 text-red-700 px-4 py-2 rounded-lg cursor-pointer text-sm font-semibold shadow-sm"
+        className="absolute -top-10 right-0  bg-red-100 hover:bg-red-200 text-red-700 px-4 py-2 rounded-lg cursor-pointer text-sm font-semibold shadow-sm"
       >
         Export PDF
       </div>
