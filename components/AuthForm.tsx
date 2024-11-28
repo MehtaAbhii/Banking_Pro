@@ -66,7 +66,6 @@ const AuthForm = ({ type }: { type: string }) => {
 
           setUser(newUser);
 
-          // router.push('/sign-in');
         }
 
         if(type === 'sign-in') {
